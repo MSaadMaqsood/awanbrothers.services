@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Request a Quote | Awan Brothers Services</title>
+  <meta name="description" content="Request a transport or logistics quote from Awan Brothers Services. Import, export, nationwide transport, container haulage, heavy vehicles and labour.">
+  <link rel="canonical" href="https://awanbrothers.services/quote.html">
+  <meta name="theme-color" content="#081a2c">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Awan Brothers Services">
+  <meta property="og:title" content="Request a Quote | Awan Brothers Services">
+  <meta property="og:description" content="Request a transport or logistics quote from Awan Brothers Services. Import, export, nationwide transport, container haulage, heavy vehicles and labour.">
+  <meta property="og:url" content="https://awanbrothers.services/quote.html">
+  <meta property="og:image" content="https://awanbrothers.services/assets/img/truck-n5-thatta.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="quote">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ Top bar ============ -->
+  <div class="topbar">
+    <div class="container">
+      <ul class="topbar-list">
+        <li><i data-lucide="mail"></i><a href="mailto:info@awanbrothers.services">info@awanbrothers.services</a></li>
+        <li class="hide-md"><i data-lucide="map-pin"></i>Jokia Market, Bin Qasim Town, Karachi</li>
+      </ul>
+      <ul class="topbar-list topbar-right">
+        <li><i data-lucide="phone"></i><a href="tel:+92301823993">+92-301-823993</a></li>
+        <li class="hide-md"><a href="tel:+923002087527">+92-300-2087527</a></li>
+        <li class="hide-md"><a href="tel:+922134760839">+92-21-34760839</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ============ Header ============ -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand" aria-label="Awan Brothers Services, home">
+        <img src="assets/img/logo.png" alt="Awan Brothers Services" width="640" height="305">
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Main">
+        <a href="index.html" data-nav="home">Home</a>
+        <a href="services.html" data-nav="services">Services</a>
+        <a href="tms.html" data-nav="tms">Our TMS</a>
+        <a href="about.html" data-nav="about">About</a>
+        <a href="track.html" data-nav="track">Track Shipment</a>
+        <a href="contact.html" data-nav="contact">Contact</a>
+        <a href="quote.html" class="btn btn-primary mobile-only">Request a Quote</a>
+      </nav>
+
+      <div class="header-cta">
+        <a class="header-phone" href="tel:+923002087527">
+          <span class="ico"><i data-lucide="phone"></i></span>
+          <span><small>Call us</small>+92-300-2087527</span>
+        </a>
+        <a href="quote.html" class="btn btn-primary">Get a Quote <i data-lucide="arrow-right"></i></a>
+        <button class="nav-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="Open menu">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+<!-- ============ Page hero ============ -->
+    <section class="page-hero" style="background-image:url('assets/img/truck-n5-thatta.jpg');background-position:center 65%">
+      <div class="container">
+        <ol class="breadcrumb">
+          <li><a href="index.html">Home</a></li>
+          <li><i data-lucide="chevron-right"></i></li>
+          <li>Request a Quote</li>
+        </ol>
+        <h1>Request a quote</h1>
+        <p>We don't publish price lists because no two loads are the same. Share your shipment details and our team will send you a quote.</p>
+      </div>
+    </section>
+
+    <datalist id="pk-cities">
+      <option value="Karachi"><option value="Port Qasim, Karachi"><option value="Karachi Port"><option value="Hyderabad">
+      <option value="Sukkur"><option value="Nawabshah"><option value="Larkana"><option value="Multan">
+      <option value="Bahawalpur"><option value="Rahim Yar Khan"><option value="Faisalabad"><option value="Lahore">
+      <option value="Sialkot"><option value="Gujranwala"><option value="Sahiwal"><option value="Islamabad">
+      <option value="Rawalpindi"><option value="Peshawar"><option value="Abbottabad"><option value="Quetta">
+      <option value="Gwadar"><option value="Hub"><option value="Gilgit"><option value="Muzaffarabad">
+      <option value="Dera Ghazi Khan"><option value="Torkham"><option value="Chaman">
+    </datalist>
+
+    <!-- ============ Quote form ============ -->
+    <section class="section section-soft">
+      <div class="container with-aside">
+        <div class="form-card">
+          <!-- DEMO FORM: handled in assets/js/main.js (submitForm). Connect to email/CRM before going live. -->
+          <form id="quote-form" data-demo-form data-success="quote-success" data-ref-prefix="QT" novalidate>
+
+            <div class="form-section">
+              <div class="form-section-title"><span class="n">1</span><h3>What do you need?</h3></div>
+              <div class="field" data-group="service">
+                <div class="choice-grid" role="radiogroup" aria-label="Service">
+                  <label class="choice"><input type="radio" name="service" value="transport" required checked><span class="box"><i data-lucide="truck"></i><b>Nationwide transport</b><small>FTL &amp; part loads, city to city</small></span></label>
+                  <label class="choice"><input type="radio" name="service" value="import"><span class="box"><i data-lucide="ship"></i><b>Import logistics</b><small>Port pickup to your door</small></span></label>
+                  <label class="choice"><input type="radio" name="service" value="export"><span class="box"><i data-lucide="globe"></i><b>Export logistics</b><small>Factory to port gate-in</small></span></label>
+                  <label class="choice"><input type="radio" name="service" value="haulage"><span class="box"><i data-lucide="container"></i><b>Container haulage</b><small>20ft / 40ft movement</small></span></label>
+                  <label class="choice"><input type="radio" name="service" value="heavy"><span class="box"><i data-lucide="construction"></i><b>Heavy vehicles</b><small>Earth moving &amp; equipment</small></span></label>
+                  <label class="choice"><input type="radio" name="service" value="labour"><span class="box"><i data-lucide="hard-hat"></i><b>Labour contracting</b><small>Loading &amp; site crews</small></span></label>
+                </div>
+                <span class="error-msg">Please choose a service.</span>
+              </div>
+            </div>
+
+            <div class="form-section">
+              <div class="form-section-title"><span class="n">2</span><h3>Shipment details</h3></div>
+              <div class="form-grid">
+                <div class="field">
+                  <label for="q-from">Pickup location <span class="req">*</span></label>
+                  <input class="input" id="q-from" name="from" list="pk-cities" placeholder="City or area, e.g. Port Qasim" required autocomplete="off">
+                  <span class="error-msg">Please enter a pickup location.</span>
+                </div>
+                <div class="field">
+                  <label for="q-to">Delivery location <span class="req">*</span></label>
+                  <input class="input" id="q-to" name="to" list="pk-cities" placeholder="City or area, e.g. Lahore" required autocomplete="off">
+                  <span class="error-msg">Please enter a delivery location.</span>
+                </div>
+                <div class="field">
+                  <label for="q-cargo">Cargo type</label>
+                  <select class="select" id="q-cargo" name="cargo">
+                    <option>General cargo</option>
+                    <option>Container (20ft)</option>
+                    <option>Container (40ft)</option>
+                    <option>Machinery / heavy equipment</option>
+                    <option>Steel &amp; construction material</option>
+                    <option>Bulk (sand, aggregate, grain)</option>
+                    <option>FMCG / palletised goods</option>
+                    <option>Textile / cartons</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="q-weight">Weight / quantity <span class="opt">(approx.)</span></label>
+                  <input class="input" id="q-weight" name="weight" placeholder="e.g. 18 tons, or 2 × 40ft">
+                </div>
+                <div class="field">
+                  <label for="q-vehicle">Preferred vehicle</label>
+                  <select class="select" id="q-vehicle" name="vehicle">
+                    <option>Not sure, please advise</option>
+                    <option>Shehzore / Mazda</option>
+                    <option>10-wheeler truck</option>
+                    <option>22-wheeler trailer</option>
+                    <option>Flatbed trailer (40ft)</option>
+                    <option>Container carrier</option>
+                    <option>Low-bed trailer</option>
+                    <option>Dumper</option>
+                    <option>Excavator / loader</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="q-date">Pickup date <span class="opt">(optional)</span></label>
+                  <input class="input" id="q-date" name="date" type="date">
+                </div>
+                <div class="field full">
+                  <label for="q-frequency">How often?</label>
+                  <select class="select" id="q-frequency" name="frequency">
+                    <option>One-time shipment</option>
+                    <option>Weekly</option>
+                    <option>Monthly</option>
+                    <option>Ongoing contract</option>
+                  </select>
+                </div>
+                <div class="field full">
+                  <label for="q-notes">Anything else we should know? <span class="opt">(optional)</span></label>
+                  <textarea class="textarea" id="q-notes" name="notes" placeholder="Dimensions, loading/unloading requirements, special handling, timing…"></textarea>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-section">
+              <div class="form-section-title"><span class="n">3</span><h3>Your details</h3></div>
+              <div class="form-grid">
+                <div class="field">
+                  <label for="q-name">Full name <span class="req">*</span></label>
+                  <input class="input" id="q-name" name="name" required autocomplete="name">
+                  <span class="error-msg">Please enter your name.</span>
+                </div>
+                <div class="field">
+                  <label for="q-company">Company <span class="opt">(optional)</span></label>
+                  <input class="input" id="q-company" name="company" autocomplete="organization">
+                </div>
+                <div class="field">
+                  <label for="q-phone">Phone / WhatsApp <span class="req">*</span></label>
+                  <input class="input" id="q-phone" name="phone" type="tel" required placeholder="+92 3XX XXXXXXX" pattern="[0-9 +\-]{7,20}" autocomplete="tel">
+                  <span class="error-msg">Please enter a valid phone number.</span>
+                </div>
+                <div class="field">
+                  <label for="q-email">Email <span class="req">*</span></label>
+                  <input class="input" id="q-email" name="email" type="email" required autocomplete="email">
+                  <span class="error-msg">Please enter a valid email address.</span>
+                </div>
+                <div class="field full">
+                  <label for="q-contact">Best way to reach you</label>
+                  <select class="select" id="q-contact" name="contact_method">
+                    <option>Phone call</option>
+                    <option>WhatsApp</option>
+                    <option>Email</option>
+                  </select>
+                </div>
+                <div class="field full">
+                  <label class="checkbox"><input type="checkbox" name="consent" required> I agree to be contacted by Awan Brothers Services about this request.</label>
+                  <span class="error-msg">Please tick this box so we can contact you.</span>
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top:2rem">
+              <button type="submit" class="btn btn-primary btn-lg">Send quote request <i data-lucide="send"></i></button>
+            </div>
+          </form>
+
+          <div class="form-success" id="quote-success" aria-live="polite">
+            <div class="ok"><i data-lucide="check"></i></div>
+            <h3>Thank you! Your request is in.</h3>
+            <p class="muted">Our team will review your shipment details and contact you shortly.</p>
+            <div class="ref">Reference: <span data-ref>QT-000000</span></div>
+            <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+              <button type="button" class="btn btn-ghost" data-reset-form="quote-form">Submit another request</button>
+              <a class="btn btn-blue" href="index.html">Back to home</a>
+            </div>
+            <div class="demo-note"><i data-lucide="info"></i><span><b>Demo mode:</b> this form is not connected yet, so no message was actually sent. For now please call or email us directly.</span></div>
+          </div>
+        </div>
+
+        <aside class="aside-stack">
+          <div class="aside-card dark">
+            <h3>What happens next</h3>
+            <ol class="mini-steps">
+              <li><div><b>We review your request</b>Our operations team checks the route, cargo and timing.</div></li>
+              <li><div><b>We confirm the details</b>We call or message you if we need anything else.</div></li>
+              <li><div><b>You receive your quote</b>A clear price for your load, with no hidden extras.</div></li>
+              <li><div><b>We dispatch &amp; track</b>Once confirmed, your load is booked and tracked in our TMS.</div></li>
+            </ol>
+          </div>
+          <div class="aside-card">
+            <h3>Prefer to talk?</h3>
+            <ul class="contact-lines">
+              <li><span class="ico"><i data-lucide="phone"></i></span><div><small>Mobile</small><a href="tel:+923002087527">+92-300-2087527</a></div></li>
+              <li><span class="ico"><i data-lucide="phone"></i></span><div><small>Mobile</small><a href="tel:+92301823993">+92-301-823993</a></div></li>
+              <li><span class="ico"><i data-lucide="building-2"></i></span><div><small>Office</small><a href="tel:+922134760839">+92-21-34760839</a></div></li>
+              <li><span class="ico"><i data-lucide="mail"></i></span><div><small>Email</small><a href="mailto:info@awanbrothers.services">info@awanbrothers.services</a></div></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ Footer ============ -->
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <img src="assets/img/logo-white.png" alt="Awan Brothers Services" width="640" height="305" loading="lazy">
+        <p>Carriage contractor for import, export and nationwide road transport, and supplier of heavy-duty vehicles, earth moving and labour. Based in Karachi, serving all of Pakistan.</p>
+        <span class="footer-badge"><i data-lucide="radar"></i> Every load tracked in our own TMS</span>
+      </div>
+
+      <div>
+        <h4>Company</h4>
+        <ul class="footer-links">
+          <li><a href="about.html">About us</a></li>
+          <li><a href="tms.html">Our TMS</a></li>
+          <li><a href="track.html">Track shipment</a></li>
+          <li><a href="quote.html">Request a quote</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Services</h4>
+        <ul class="footer-links">
+          <li><a href="services.html#import">Import logistics</a></li>
+          <li><a href="services.html#export">Export logistics</a></li>
+          <li><a href="services.html#transport">Nationwide transport</a></li>
+          <li><a href="services.html#haulage">Container &amp; port haulage</a></li>
+          <li><a href="services.html#heavy">Heavy vehicles &amp; earth moving</a></li>
+          <li><a href="services.html#labour">Labour contracting</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Get in touch</h4>
+        <ul class="footer-contact">
+          <li><i data-lucide="map-pin"></i><span>Jokia Market, Bin Qasim Town,<br>Karachi, Pakistan</span></li>
+          <li><i data-lucide="phone"></i><span>
+            <a href="tel:+92301823993">+92-301-823993</a><br>
+            <a href="tel:+923002087527">+92-300-2087527</a><br>
+            <a href="tel:+922134760839">+92-21-34760839</a></span></li>
+          <li><i data-lucide="mail"></i><a href="mailto:info@awanbrothers.services">info@awanbrothers.services</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <span>&copy; <span data-year>2026</span> Awan Brothers Services. All rights reserved.</span>
+        <nav aria-label="Footer">
+          <a href="credits.html">Image credits</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp button -->
+  <a class="float-wa" href="https://wa.me/923002087527?text=Hello%20Awan%20Brothers%2C%20I%20would%20like%20a%20quote." target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
+    <span class="tip">Chat on WhatsApp</span>
+    <i data-lucide="message-circle"></i>
+  </a>
+
+  <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
